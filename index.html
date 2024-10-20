@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REMYSA</title>
+    <link rel="icon" href="favicon.png" />
+    <!--FAVICOM-->
+  </head>
+  <body background="fondo_claro.jpg">
+    <!--ENCABEEZADO-->
+    <header style="margin-left: 10px">
+      <img
+        src="bosch.png"
+        alt="logo bosch"
+        width="50px"
+        style="margin-left: 20px; margin-right: 1000px"
+      />
+      <img
+        src="favicon.png"
+        alt="logo 20 anv"
+        width="50px"
+        style="margin-right: 20px; align-items: right"
+      />
+      <h1 style="text-align: center"><strong>REMYSA AUTOMOCIÓN</strong></h1>
+      <div style="margin: auto; width: auto; text-align: center">
+        <label style="margin-right: 50px"><strong>Pide cita</strong></label>
+        <label style="margin-right: 50px"
+          ><strong>Sobre nosotros</strong></label
+        >
+        <label style="margin-right: 50px"><strong>Servicios</strong> </label>
+        <label style="margin-right: 50px"><strong>Contacto</strong> </label>
+      </div>
+    </header>
+
+    <!--MENU DE NAVEGACION______ h1, h2, p, ul, ol, blockquote, sotrong, em, a_____alt para decribir imagenes-->
+    <main style="margin-left: 100px; margin-right: 100px">
+      <section></section>
+
+      <article>
+        <h2>¿Quienes somos?</h2>
+        <p>
+          En el corazón de España, nuestro taller mecánico se ha consolidado
+          como un referente en el sector, con más de <strong>20 años</strong> de
+          experiencia brindando servicios de <strong> calidad</strong> a
+          nuestros clientes. Nuestro equipo de mecánicos altamente cualificados
+          combina conocimientos técnicos avanzados con una profunda pasión por
+          el automóvil,<strong
+            >asegurando que cada vehículo que pasa por nuestras manos reciba la
+            atención que merece.</strong
+          >
+          Nos especializamos en una amplia gama de servicios, desde
+          mantenimientos rutinarios hasta reparaciones complejas, siempre
+          utilizando piezas de recambio de la
+          <strong>más alta calidad. </strong> La profesionalidad es nuestra
+          prioridad. Cada miembro de nuestro equipo está comprometido con
+          ofrecer un servicio excepcional, basándose en la honestidad y la
+          transparencia.
+          <strong>Mantenemos una comunicación constante</strong> con nuestros
+          clientes, explicando cada paso del proceso y garantizando que estén
+          completamente informados. Además, respaldamos nuestro trabajo con una
+          <strong>sólida garantía,</strong> porque creemos en la calidad de
+          nuestros servicios. Si alguna vez surge un problema tras la
+          reparación, nos encargamos de solucionarlo sin coste adicional,
+          asegurando la satisfacción total de nuestros clientes. En nuestro
+          taller, no solo reparamos vehículos; construimos relaciones de
+          confianza duraderas, ofreciendo un servicio integral que supera las
+          expectativas. <strong>¡Visítanos y descubre la diferencia!</strong>
+        </p>
+      </article>
+      <hr />
+      <article>
+        <h2>¿Cómo empezó el negocio?</h2>
+        <p>
+          Nuestro taller mecánico nació
+          <strong>tras diez años de experiencia</strong> trabajando en un taller
+          en un pueblo cercano. Durante ese tiempo, <em>adquirí</em> una sólida
+          práctica y conocimiento en el sector, lo que me motivó a dar el
+          siguiente paso. Con el deseo de
+          <strong>ofrecer un servicio de calidad </strong>a la comunidad, decidí
+          abrir mi propio taller en este pueblo de 10,000 habitantes. Mi
+          objetivo es proporcionar un trato cercano y profesional, asegurando
+          que cada cliente reciba la atención que merece. Estoy comprometido a
+          ser un referente en el mantenimiento y reparación de vehículos en la
+          zona, <strong>ofreciendo siempre lo mejor.</strong>
+        </p>
+      </article>
+      <hr />
+      <figure style="margin: auto; align-items: center">
+        <img
+          src="header_remysa.jpg"
+          alt="Espaciador negro"
+          width="1000"
+          style="align-self: center"
+        />
+      </figure>
+      <hr />
+      <hr />
+
+      <article>
+        <h2>Formulario de contacto</h2>
+
+        <form action="consulta.php">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            style="margin-right: 50px"
+          />
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" min="18" required /> <br />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="email">Asunto:</label>
+          <input type="Asunto" id="asunto" name="asunto" required /> <br />
+
+          <label for="comentarios">Mensaje:</label><br />
+          <textarea
+            id="comentarios"
+            name="comentarios"
+            rows="4"
+            cols="50"
+          ></textarea
+          ><br />
+          <label style="margin-right: 20px">Tipo de vehículo:</label>
+          <input type="radio" id="Coche" name="Tipo vehiculo" value="Coche" />
+          <label for="soltero">Coche</label>
+          <input
+            type="radio"
+            id="Ind"
+            name="Tipo vehiculo"
+            value="Industrial"
+          />
+          <label for="Ind" style="margin-right: 100px">Industrial</label>
+
+          <label for="Marca">Marca:</label>
+          <select id="Marca" name="Marca" required>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMw</option>
+            <option value="Citroen">Citroen</option>
+            <option value="Hummer">Hummer</option>
+            <option value="Iveco">Iveco</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Citroen">Citroen</option>
+          </select>
+          <br />
+          <label for="archivo"> Si tiene diagnosis previa carguela:</label>
+          <input type="file" id="archivo" name="archivo" /><br /><br />
+          <input type="reset" value="Restablecer Formulario" />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </article>
+    </main>
+
+    <!--tÍTULO PRINCIPAL DE LA PAGINA-->
+
+    <!--formulario de contacto con: nombre, correo, asunto, mensaje, validar los datos del formulario, y otro tipo de formulario realacionado(coches)-->
+    <!--Pie de pagina, informacionde contacto, copyrigt5h, enlaces redes sociales-->
+    <footer style="margin: 80px">
+      <h4>Citas Inspiradoras</h4>
+      <blockquote>
+        "No se cobra por lo que se hace, se cobra por lo que se sabe"
+      </blockquote>
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p><strong>Email</strong>: taller@remysa.com</p>
+        <p><strong>Teléfono</strong>: +34 925 30 10 81</p>
+      </div>
+      <div>
+        <p>
+          &copy; 2024 Taller Mecánico Europe. Todos los derechos reservados.
+        </p>
+      </div>
+      <div class="footer-section social-icons">
+        <h3>Síguenos en:</h3>
+        <a href="https://facebook.com" style="margin: 5px">Facebook</a>
+        <a href="https://twitter.com" style="margin: 5px">Twitter</a>
+        <a href="https://instagram.com" style="margin: 5px">Instagram</a>
+        <a href="https://Linkedin.com" style="margin: 5px">Linkedin</a>
+      </div>
+    </footer>
+  </body>
+</html>
